@@ -123,7 +123,6 @@ em {
         grid-template-columns: 1fr ;
     }
     .nav-links {
-        display: none;
         top: 60px;
         right: 0;
         width: 100%;
