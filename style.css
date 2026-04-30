@@ -127,7 +127,7 @@ em {
         right: 0;
         width: 100%;
         background-color: #0a0a0a;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding: 20px 0;
     }
