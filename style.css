@@ -8,6 +8,8 @@ body{
     align-items: center;
     padding: 15px, 40px;
     background-color: #0a0a0a;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -120,8 +122,32 @@ em {
     .container {
         grid-template-columns: 1fr ;
     }
+    .nav-links {
+        display: none;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: #0a0a0a;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
 } 
 
 .price-list {
     list-style: circle;
+}
+
+.menu-toggle{
+    display: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
 }
