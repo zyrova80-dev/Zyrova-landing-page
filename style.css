@@ -82,7 +82,7 @@ em {
 }
 
 .hero {
-    height: 100vh;
+    height: 100%;
     background-image:url(IMAGES/file_00000000cb1071f4a653e60d95df8870.png);
     margin-top: 0px;
     background-size: cover;
